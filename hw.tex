@@ -1,0 +1,133 @@
+\documentclass[8pt,a4paper]{extarticle}
+
+\usepackage[backend=bibtex]{biblatex}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{ragged2e}
+\usepackage{type1cm}
+\usepackage{lettrine}
+\usepackage{amsmath}
+
+\setlength{\columnsep}{1.5cm}
+\geometry{margin=2.8cm}
+\addbibresource{hw.bib}
+\pagenumbering{gobble}
+
+
+
+\begin{document}
+\begin{multicols}{3}
+
+	\begin{flushleft}
+		\uppercase{\textbf{physical review}}
+	\end{flushleft}
+	\columnbreak
+
+	\begin{center}
+		\uppercase{\textbf{volume 97, number 3}}
+	\end{center}
+	\columnbreak
+
+	\begin{flushright}
+		\uppercase{\textbf{february 1, 1955}}
+	\end{flushright}
+
+\end{multicols}
+
+\begin{center}
+	\LARGE{\textbf{Slow Electrons in a Polar Crystal}}\\*
+	\bigskip
+	\small{R. P. Feynman}\\*
+	\small{\textit{California Institute of Technology, Pasadena, California}}\\*
+	(Received October 19, 1954)\\*
+	\bigskip
+	\begin{minipage}[c]{0.85\textwidth}
+			\small{~~A variational principle is developed for the lowest energy of a system described by a path integral. It is\linebreak applied to the problem of the interaction of an electron with a polarizable lattice, as idealized by Frohlich.\linebreak The motion of the electron, after the phonons of the lattice field are eliminated, is described as a path\linebreak integral. The variational method applied to this given an energy for all values of the coupling constant.\linebreak It is at least as accurate as previously known results. The effective mass of the electron is alco calculated,\linebreak but the accuracy here is difficult to judge.}\\*
+	\end{minipage}
+
+	\bigskip
+
+	\rule{4cm}{0.1pt}
+
+	\bigskip
+
+\end{center}
+\setlength{\columnsep}{0.5cm}
+\begin{multicols}{2}
+	\begin{flushleft}	
+		\justify
+		\lettrine{A}{N} electron in an ionic crystal polarizes the lattice\linebreak in its neighborhood. This interaction changes the\linebreak energy of the electron. Furthermore, when the electron \linebreak moves the polarization state must move with it. An\linebreak electron moving with its accompanying distortion of\linebreak the lattice has sometimes been caleed a polaron. It has an effective mass higher than that of the electron. We\linebreak wish to compute the energy and effective mass of such\linebreak an electron. A summary giving the present state of\linebreak this problem has been given by Frohlich${}^1$. He makes\linebreak simplifying assumptions, such that crystal lattice\linebreak acts much like a dielectric medium, and that all the\linebreak important phonon waves have the same frequency. We\linebreak will not discuss the validity of these assumptions here,\linebreak but will consider the problem described by Frohlich as simply a mathematical problem. Aside from its\linebreak intrinsic interest, the problem is a much simplified\linebreak analog of those which occur in the conventional meson\linebreak theory when perturbation theory is inadequate. The\linebreak method we shall use to solve the polaron problem is new, but the pseudoscalar symmetric meson field\linebreak problems involve so many further complications that\linebreak it cannot be directly applied there without futher\linebreak development.\linebreak ~~We shall show how the variational technique which\linebreak is so successfull in ordinary quantum mechanics can be\linebreak extended to inegrals over trajectories.
+
+	\end{flushleft}
+	\bigskip
+	\begin{center}
+		\uppercase{\textbf{statement of the problem}}
+	\end{center}
+	
+	\begin{flushleft}
+		\justify
+		~~~With Frohlich's assumptions, the problem is reduced\linebreak to that of finding ~the ~properties of the following\linebreak Hamiltionian:\linebreak
+
+		$H=\frac{1}{2}{\textbf{P}}^2+\sum_{K}a_K+a_K+i{(\sqrt{2}\pi\alpha/V)}^{\frac{1}{2}}\sum_{K}\displaystyle \frac{1}{K}$\\*
+
+		~~~~~~~~~~$\times[a_{K}+exp(-i\textbf{K}\cdot \textbf{X})-a_{K}exp(i\textbf{K}\cdot \textbf{X})]$.~~~~~(1)\\*
+
+		Here \textbf{X} is the vector position of the electron, \textbf{P} its\linebreak conjugate momentum, ${a_K}^{+}, a_K$ the creation and annihilation operators of a phonon (of momentum \textbf{K}). The\linebreak frequency of a phonon is taken to be independent of \textbf{K}.\linebreak Our units are such that \textit{h}, this frequency, and the\linebreak
+		\rule{1,3cm}{0.1pt}
+		\justify
+		\small{~~${}^1$H. Frohlich, Advances in Physics \textbf{3}, 325 (1954). References to other work is given here.}
+	\end{flushleft}
+	\columnbreak
+
+	\begin{flushright}
+		\justify
+		electron mass are unity. The quantity $\alpha$ acts as a\linebreak coupling constant, which may be large or small. In\linebreak conventional units it is given by
+
+			~~~~~~~~~~~~~~~~~$\alpha=\frac{1}{2}(\frac{1}{{\in}_{\infty}}-\frac{1}{\in})\frac{e^2}{h\omega}{(\frac{2m\omega}{h})}^{\frac{1}{2}}$,\\*
+		\justify
+		where $\in$, ${\in}_{\infty}$ are the static and high frequency dielectric\linebreak constant, respectively. In a typical case, such as NaCl,\linebreak $\alpha$ may be about 5. The wave function of the system\linebreak satisfies (h=1)
+
+			~~~~~~~~~~~~~~~~~~~~~~~$ i\partial\psi/\partial t=\textit{H}\psi$~~~~~~~~~~~~~~~~~~~~~~~~~~~(2)
+		\justify
+		so that if $\gamma_n$ and $\textit{E}_n$ are the eigenfunctions and eigenvaluse of H,\\*
+
+		~~~~~~~~~~~~~~~~~~~~~~$ \textit{H}\gamma_n=\textit{E}_n\gamma_n,$~~~~~~~~~~~~~~~~~~~~~~~~~~~~(3)
+		\justify
+		then any solution of (2) is of the form\\*
+
+			~~~~~~~~~~~~~~~~~~~~~~~$ \psi=\sum{n}\textit{C}_n\psi_ne^{--i{E}_{n}t}$.
+		\justify
+		~~~Now we can cast (1) and (2) into the Lagrangian form\linebreak of quantum mechanics and then eliminate the field\linebreak oscillators (specializing to the case that all phonons are\linebreak virtual). Doing this in exact analogy to quantum\linebreak electrodynamics,$^2$ we find that we must study the sum over all trajectories \textbf{X}(t) of exp(iS'), where\\*
+
+		$ S'=\frac{1}{2}\int(\frac{d\textbf{X}}{dt})^2dt$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+		~~~~~~~~~~~~~~~$ +2^{-\frac{3}{2}}\alpha i\int\int{\mid \textbf{X}_t-\textbf{X}_8\mid}^{-1}e^{--i\mid t-8\mid}dtds.$~~~~~(4)
+		\justify
+		This sum will depend on the initial and final conditions\linebreak
+		and on the time interval \textit{T}. Since it is a solution of the\linebreak Schrodinger Eq. (2), considered as a function of T it\linebreak will contain fequencies $E_n$, the lowest frequency, however.\linebreak
+		~~For that reason, consider the mathematical problem\linebreak
+		of solving
+
+		~~~~~~~~~~~~~~~~~~~~~~~$\partial\psi/\partial t=-\textit{H}\psi,$~~~~~~~~~~~~~~~~~~~~~~~(5)
+		\justify
+		without question as to the meaning of \textit{t}. This has the\linebreak same eigenvalues and eigenfunctions as (3), but a
+	\end{flushright}
+	\begin{flushleft}
+	\rule{1,3cm}{0.1pt}\\*
+	~~$^2$R. P. Feynman, Phys. Rev. \textbf{80}, 440 (1950).
+	\end{flushleft}
+
+\end{multicols}
+
+	\begin{center}
+		660
+	\end{center}
+
+
+
+
+
+
+
+
+\end{document}
